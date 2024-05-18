@@ -1,0 +1,227 @@
+/* 翻页按钮居中 */
+#pagination {
+	width: 100%;
+	margin: auto;
+}
+
+/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
+
+@media screen and (max-width: 800px) {
+	#aside_content div:not(:last-child) {
+		display: none;
+		font-size: 13px;
+	}
+}
+
+.nav-fixed #nav {
+	transform: translateY(58px) !important;
+	-webkit-transform: translateY(58px) !important;
+	-moz-transform: translateY(58px) !important;
+	-ms-transform: translateY(58px) !important;
+	-o-transform: translateY(58px) !important;
+}
+
+#nav {
+	transition: none !important;
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+}
+
+.layout {
+	max-width: 1280px;
+}
+
+/* 阅读模式 */
+.read-mode #aside-content .card-widget {
+	background: rgba(118, 238, 152, 0.5) !important;
+}
+
+.read-mode div#post {
+	background: rgba(114, 227, 146, 0.5) !important;
+}
+
+/* 夜间模式下的阅读模式 */
+[data-theme="dark"] .read-mode #aside-content .card-widget {
+	background: rgba(25, 25, 25, 0.9) !important;
+	color: #ffffff;
+}
+
+[data-theme="dark"] .read-mode div#post {
+	background: rgba(25, 25, 25, 0.9) !important;
+	color: #ffffff;
+}
+
+#notice-item {
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+}
+
+#notice-item .li-style {
+	width: 100%;
+	height: 25px;
+	font-weight: 500;
+	text-align: center;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	transition: 0.3s;
+}
+
+#noticeList {
+	width: 100%;
+	background: var(--card-bg);
+	color: var(--font-color);
+	margin-top: 1rem;
+	padding: 0.6rem 1rem;
+	border-radius: 12px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+#noticeList .nlogo {
+	color: var(--font-color);
+	font-weight: 600;
+	display: inline;
+}
+
+#noticeList .swiper-container {
+	display: flex;
+	flex: 1;
+}
+
+#noticeList i {
+	text-align: right;
+}
+
+.swiper-slide:hover {
+	color: #1fc7b6;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#web_bg {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+#web_bg {
+	background-image: url("../img/banner.jpg"),
+		linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35))
+}
+
+#nav-right {
+	flex: 1 1 auto;
+	justify-content: flex-end;
+	margin-left: auto;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.nav-fixed #nav {
+	transform: translateY(58px) !important;
+	-webkit-transform: translateY(58px) !important;
+	-moz-transform: translateY(58px) !important;
+	-ms-transform: translateY(58px) !important;
+	-o-transform: translateY(58px) !important;
+}
+
+#nav {
+	transition: none !important;
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+}
+
+/*顶部加载进度条*/
+.pace {
+	pointer-events: none;
+	user-select: none;
+	z-index: 2;
+	position: fixed;
+	margin: auto;
+	top: 4px;
+	left: 0;
+	right: 0;
+	height: 8px;
+	border-radius: 8px;
+	width: 6rem;
+	background: #eaecf2;
+	overflow: hidden;
+}
+
+.pace-inactive .pace-progress {
+	opacity: 0;
+	transition: 0.3s ease-in;
+}
+
+.pace.pace-inactive {
+	opacity: 0;
+	transition: 0.3s;
+	top: -8px;
+}
+
+.pace .pace-progress {
+	box-sizing: border-box;
+	transform: translate3d(0, 0, 0);
+	position: fixed;
+	z-index: 2;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 100%;
+	height: 100%;
+	width: 100%;
+	background: #49b1f5;
+	background: linear-gradient(to right,
+			rgb(18, 194, 233),
+			rgb(196, 113, 237),
+			rgb(246, 79, 89));
+	animation: gradient 2s ease infinite;
+	background-size: 200%;
+}
+
+#nav-right {
+	flex: 1 1 auto;
+	justify-content: flex-end;
+	margin-left: auto;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+/*白天主题下的配置*/
+#aside-content>.card-widget.card-info {
+    /*换成自己图片的地址*/
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%
+}
+/*黑暗主题下的配置*/
+/*
+[data-theme=dark] #aside-content>.card-widget.card-info {
+*/
+    /*换成自己图片的地址*/
+/*
+    background-image: url('./bbg.png') !important
+}
+*/
+

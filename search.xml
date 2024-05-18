@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Gravatar评论区头像教程</title>
+      <link href="/2024/05/18/Gravatar%E5%A4%B4%E5%83%8F%E6%95%99%E7%A8%8B/"/>
+      <url>/2024/05/18/Gravatar%E5%A4%B4%E5%83%8F%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>有些朋友可能会问了，为什么我在各路大佬的博客上能看到很多人有自己的个性头像，而我的头像却是默认头像，而网站上又没有上传头像的位置呢？</p><p>其实大部分博客调用的是互联网最知名的Gravatar头像库的头像，下面就为您介绍一下什么是Gravatar吧！</p><h1 id="什么是-Gravatar？"><a href="#什么是-Gravatar？" class="headerlink" title="什么是 Gravatar？"></a>什么是 Gravatar？</h1><p>一个 “avatar”(头像) 是你在互联网上的一个形象 —— 在你和网站互动时会出现在你昵称的旁边。</p><p>Gravatar的概念首先是在国外的独立博客中兴起的，当你到任何一个支持Gravatar的网站留言时，这个网站都就会根据你所提供的Email地址为你显示出匹配的头像。当然，这个头像，是需要你事先到Gravatar的网站注册并上传的，否则，在这个网站上，就只会显示成一个默认的头像。</p><h1 id="如何定制自己的个性头像？"><a href="#如何定制自己的个性头像？" class="headerlink" title="如何定制自己的个性头像？"></a>如何定制自己的个性头像？</h1><p>进入<a href="https://gravatar.com/">Gravatar官方网站</a>，点击右上角的Sign In进行注册/登录。</p><p>需要注意Gravatar官网最好挂一个加速器，不然难以正常访问。</p><p>登录后上传头像即可，全程无坑非常友好。</p><h1 id="留下你的评论"><a href="#留下你的评论" class="headerlink" title="留下你的评论"></a>留下你的评论</h1><p>修改完头像后欢迎在评论区留下你的足迹，快来试试属于你的新头像吧！</p><p>如果你修改了头像后发现没有更新，请不要慌张，因为gravatar.cat.net 有七天的缓存期，安静的等待吧~</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自己搭建博客的一点心得</title>
+      <link href="/2024/04/27/%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E7%82%B9%E5%BF%83%E5%BE%97/"/>
+      <url>/2024/04/27/%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E7%82%B9%E5%BF%83%E5%BE%97/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>博主自己搭建博客的过程非常坎坷，几乎把所有坑都踩了一遍，遂写一篇文章聊一聊搭建博客和美化使用博客的心得。这里不给出具体过程，只分享一些我自己的一些见解。</p><h1 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h1><p>推荐搭建hexo博客，<strong>命令行</strong>操作一定要熟练，打开文件资源管理器对照来看会更加清晰。<br>hexo 基本命令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean&amp;hexo g&amp;hexo d</span><br></pre></td></tr></table></figure><br>初次部署可以push到GitHub上，推到远端可以让所有人都访问到你的博客，也能更好的管理你的代码。</p><h1 id="美化博客"><a href="#美化博客" class="headerlink" title="美化博客"></a>美化博客</h1><p>这里博主选用的是Butterfly主题，美化这里主要是两个config文件</p><blockquote><p>…\blog\_config.yml<br>…\blog\themes\butterfly\_config.yml</p></blockquote><p>详情可参考<a href="https://butterfly.js.org/">Butterfly官方</a><br>配置好之后还可以引入第三方依赖代码，搭建一个属于你自己的博客。</p><h1 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h1><p>写博客要使用markdown格式，推荐大家用<a href="https://stackedit.cn/">stackedit</a>，免费，附加功能齐全，很好上手。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>书籍</title>
+      <link href="/book/index.html"/>
+      <url>/book/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
+</search>
